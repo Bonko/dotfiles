@@ -79,3 +79,5 @@ let g:go_fmt_command = "goimports"
 " run program with ,r
 autocmd FileType go nmap <leader>r  <Plug>(go-run)
 
+" open nerdtree
+map <leader>n :NERDTreeToggle<CR>
